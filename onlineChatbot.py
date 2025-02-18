@@ -17,7 +17,7 @@ import google.generativeai as ai
 from fastapi.middleware.cors import CORSMiddleware
 
 # Configure API Key
-API_KEY = "AIzaSyBdq7Ca4BioiVZFjLseDvYJ_qu3hgccIAY"
+API_KEY = "Your API key"
 ai.configure(api_key=API_KEY)
 
 # Initialize Chat Model
